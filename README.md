@@ -48,6 +48,6 @@ Syntax of markdown from below.
         - Syntax of Text Monospace
         ```markdown
         The line below is Text Monospace
-        ***This line is Text Monospace***
+        `This line is Text Monospace`
         ```
     - ### Text 
