@@ -2,4 +2,10 @@
 Hello to Anyone other than me, In this repo i am documenting markdown syntax to the best of my knowledge.    
 This repo can act as you quick reference markdown guide.
 
-## Index
+<br>
+
+Syntax of markdown from below.
+---
+
+- ## Headings
+awdawdawdawd
