@@ -11,3 +11,13 @@ Syntax of markdown from below.
 
     - ### Headings
         Headings in markdown are level based, think of Lower level headings are sub-topics of the Higher level headings.
+        - Syntax of headings start with # followed by white space and the title. note the more #-es the lower level is the heading.
+            ```markdown
+            # heading1
+            ## heading2
+            ### heading3
+            and more...
+            ```
+    - ### Text Bold
+        Bold text in markdown is achived by using 2 asterisk before and after the text that is to be rendered Bold.
+        
