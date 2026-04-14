@@ -213,13 +213,15 @@ this is a multi line code block
 \```
 this is a multi line code block
 this is a multi line code block
+\```
 ```
-```
+
 - Note: in Multi-line code we can use syntax highlighting by typing programming language name after the first/starting 3 backticks.
 - syntax highliting of markdown eg:
+
 ```
-```markdown
+\```markdown
 # this is a multi line code block
 ## this is a multi line code block
-```
+\```
 ```
