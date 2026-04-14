@@ -1,13 +1,11 @@
 # tej-my_markdown-repo
 Hello to Anyone other than me, In this repo i am documenting markdown syntax to the best of my knowledge.    
-
----
-
 This repo can act as you quick reference markdown guide.
 
 <br>
 
 Syntax of markdown from below.
+
 ---
 
 ## General Text
@@ -72,8 +70,11 @@ The line below is Text Strike
 ### Line break
 The best method for achieving an Line break in markdown is using HTML syntax br inside < >
 - how it looks:
+
 below is Line break
+
 <br>
+
 above is Line break
 
 - Syntax of Line break
@@ -84,13 +85,11 @@ There is an Line break below
 
 There is an Line break above
 ```
-
 - Note: it is best to leave a line above and below, for GitHub's markdown render engine to avoid miss-renders
 
 ### Horizontal
 The syntax for Horizontal line is 3 hyphens or underscores or asterisks.
 - how it looks:
-
 below is Horizontal
 
 ---
@@ -100,7 +99,9 @@ above is Horizontal
 - Syntax of Horizontal
 ```markdown
 There is an Horizontal below
+
 ---
+
 There is an horizontal above
 ```
 - Note: Headings in GitHub automatically render an thin horizontal, the syntatically induced render is thick in comparision.
