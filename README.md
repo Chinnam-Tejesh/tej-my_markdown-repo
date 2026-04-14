@@ -72,6 +72,7 @@ Block Quotes is achived using grater-than symbol (for first level) and 2 grater-
 
 > This is first level Block Quote.
 >> this is second level Block Quote.
+> rough, still first level Block Quote.
 
 - Syntax for Block Quotes
 ```markdown
@@ -86,7 +87,7 @@ Block Quotes is achived using grater-than symbol (for first level) and 2 grater-
 
 ### Line Break
 The best method for achieving an Line Break in markdown is using HTML syntax br inside < >
-- how it looks:
+- eg:
 
 below is Line Break
 
@@ -106,7 +107,7 @@ There is an Line Break above
 
 ### Horizontal
 The syntax for Horizontal line is 3 hyphens or underscores or asterisks.
-- how it looks:
+- eg:
 
 below is Horizontal
 
@@ -133,7 +134,7 @@ There is an horizontal above
 ### Lists
 Lists are generated using hyphen followed by white space, and for sub lists use tab space before the hyphen.
 
-how it looks:
+eg:
 - list 1
 - list 2
     - list 2.1
@@ -152,7 +153,7 @@ how it looks:
 ### Numarical List
 Similar to lists but we use number followed by fullstop and whitespace.
 
-how it looks
+eg:
 1. list 1
 2. list 2
     1. list 2.1
@@ -171,7 +172,7 @@ how it looks
 ### Check List
 Similar to Lists, for checklist we use [ ] for unchecked and [x] for checked.
 
-how it looks
+eg:
 - [ ] list 1
 - [x] list 2
     - [x] list 2.1
@@ -190,4 +191,35 @@ how it looks
 ---
 ---
 
-## 
+## Code 
+
+### Single/In-line Code
+Single/In-Line code in markdown is achived use backtick before and after the code.
+- eg: this is text `this is in-line code` this is text.
+- Syntax of Single/In-line Code:
+```markdown
+this is text `this is in-line code` this is text.
+```
+
+### Multi-line Code
+Multi line code in markdown is achived using 3 backticks before and after the code.
+- eg:
+```
+this is a multi line code block
+this is a multi line code block
+```
+- Syntax of Multi-line Code:
+```
+```
+this is a multi line code block
+this is a multi line code block
+```
+```
+- Note: in Multi-line code we can use syntax highlighting by typing programming language name after the first/starting 3 backticks.
+- syntax highliting of markdown eg:
+```
+```markdown
+# this is a multi line code block
+## this is a multi line code block
+```
+```
