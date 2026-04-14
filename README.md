@@ -65,6 +65,8 @@ The line below is Text Strike
 ~~This line is Text Strike~~
 ```
 
+
+
 ## Line break and Horizontal
 
 ### Line break
@@ -105,5 +107,66 @@ There is an Horizontal below
 
 There is an horizontal above
 ```
-- Note: Headings in GitHub automatically render an thin horizontal, the syntatically induced render is thick in comparision.
+- Note: level 1 Headings in GitHub automatically render an thin horizontal, the syntatically induced render is thick in comparision.
 - Note: cant generate an Horizontal inside points / list.
+
+
+
+## List , Numarical list and Check list
+
+### Lists
+Lists are generated using hyphen followed by white space, and for sub lists use tab space before the hyphen.
+
+how it looks:
+- list 1
+- list 2
+    - list 2.1
+    - list 2.2
+        - list 2.2.1
+
+- Syntax for List
+```markdown
+- list 1
+- list 2
+    - list 2.1
+    - list 2.2
+        - list 2.2.1
+```
+
+### Numarical list
+Similar to lists but we use number followed by fullstop and whitespace.
+
+how it looks
+1. list 1
+2. list 2
+    1. list 2.1
+    2. list 2.2
+        1. list 2.2.1
+
+- Sunctax for Numerical list
+```markdown
+1. list 1
+2. list 2
+    1. list 2.1
+    2. list 2.2
+        1. list 2.2.1
+```
+
+### Check list
+Similar to Lists, for checklist we use [ ] for unchecked and [x] for checked.
+
+how it looks
+- [] list 1
+- [x] list 2
+    - [x] list 2.1
+    - [] list 2.2
+        - [x] list 2.2.1
+
+- Syntax for Checked list
+```markdown
+- [] list 1
+- [x] list 2
+    - [x] list 2.1
+    - [] list 2.2
+        - [x] list 2.2.1
+```
