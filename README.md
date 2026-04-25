@@ -228,3 +228,40 @@ this is a multi line code block
 ```
 
 ## Links and Embeddeds
+
+### Hyper Link
+In markdown a Hyper link is used for many purposes, like:
+> - navigating to any URL. 
+>   - use the URL. 
+> - navigating to Folder inside repo. 
+>   - use path with / at the start. 
+> - navigating to any Heading inside file. 
+>   - use # followed by heading text. 
+
+- the syntax for Hyper link is: [ text here ] followef by ( URL, Path or Heading ).
+- eg: Heading navigation: [click-here](#tej-my_markdown-repo), URL navigation: [click-here](https://github.com/Chinnam-Tejesh) and Folder navigation [click-here](/resources/)
+
+- Syntax of Hyper link
+```markdown
+Heading navigation: [click-here](#tej-my_markdown-repo) 
+URL navigation: [click-here](https://github.com/Chinnam-Tejesh) 
+Folder navigation [click-here](/resources/) 
+```
+
+### Image Embedded
+Markdown supports Image embedded-ing either avilable in the repo or using URL.
+- eg:
+    - image inside resources folder: ![cherry blossom](/resources/image1.jpg)
+    - image from URL: ![markdown logo](https://upload.wikimedia.org/wikipedia/commons/4/41/1280px_Markdown_with_White_Background.png)
+
+- Syntax of Image Embedded
+```markdown
+image inside resources folder: ![cherry blossom](/resources/image1.jpg)
+image from URL: ![markdown logo](https://upload.wikimedia.org/wikipedia/commons/4/41/1280px_Markdown_with_White_Background.png)
+```
+
+### Video Embedded
+Markdown supports Video embedded-ing (GitHub's feature) either avilable in the repo or using URL.
+- eg:
+    - video inside resources folder ![sample 5seconds](/resources/sample-5s-360p.mp4)
+    - video from URL: ![youtube URL]()
