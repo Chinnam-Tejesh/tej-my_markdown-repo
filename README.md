@@ -1,4 +1,4 @@
-# tej-my_markdown-repo
+# my_markdown-repo
 Documenting is an important part of programming (it be embedded, application or HDL), In this repo i am documenting markdown syntax to the best of my knowledge - and can be used as a quick reference lookup for GitHub's markdown rendering.
 
 <br>
